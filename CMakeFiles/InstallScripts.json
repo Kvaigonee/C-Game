@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/dev/C-Game/cmake_install.cmake",
+		"C:/dev/C-Game/deps/glfw/cmake_install.cmake",
+		"C:/dev/C-Game/deps/glfw/src/cmake_install.cmake",
+		"C:/dev/C-Game/deps/glfw/docs/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
