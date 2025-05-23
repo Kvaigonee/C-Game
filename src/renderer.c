@@ -1,5 +1,6 @@
 #include <glad/glad.h>
 #include "renderer.h"
+#include "cube.h"
 
 const char *vertexShaderSource = "#version 330 core\n"
     "layout (location = 0) in vec3 aPos;\n"
@@ -12,7 +13,7 @@ const char *fragmentShaderSource = "#version 330 core\n"
 "out vec4 FragColor;\n"
 "void main()\n"
 "{\n"
-"   FragColor = vec4(1.0f, 0.5f, 0.2f, 1.0f);\n"
+"   FragColor = vec4(0.2f, 1.0f, 0.2f, 1.0f);\n"
 "}\0";
 
 float triangleGeometry[] = {
@@ -27,7 +28,7 @@ void draw(Resources *resourcesPtr) {
     glUseProgram(resources.program);
     glBindVertexArray(resources.vao);
 
-    glDrawArrays(GL_TRIANGLES, 0, 3);
+    glDrawArrays(GL_TRIANGLES, 0, 36);
 }
 
 Resources initResources() {
@@ -65,7 +66,8 @@ Resources initResources() {
 
     glBindVertexArray(VAO);
     glBindBuffer(GL_ARRAY_BUFFER, VBO);
-    glBufferData(GL_ARRAY_BUFFER, sizeof(triangleGeometry), triangleGeometry, GL_STATIC_DRAW);
+
+    glBufferData(GL_ARRAY_BUFFER, sizeof(cubeVertices), &cubeVertices, GL_STATIC_DRAW);
     glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
     glEnableVertexAttribArray(0);
 

@@ -323,8 +323,11 @@ CMakeFiles/main.dir/src/renderer.c.obj: src/renderer.c \
   C:/MinGW/x86_64-w64-mingw32/include/vadefs.h \
   deps/glad/include/KHR/khrplatform.h \
   deps/glad/include/glad/glad.h \
+  src/cube.h \
   src/renderer.h
 
+
+src/cube.h:
 
 deps/glfw/include/GLFW/glfw3.h:
 

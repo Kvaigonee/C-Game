@@ -12,4 +12,4 @@ CMakeFiles/main.dir/src/renderer.c.obj: C:\dev\C-Game\src\renderer.c \
  C:/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stddef.h \
  C:/MinGW/x86_64-w64-mingw32/include/stddef.h \
- C:\dev\C-Game\src\renderer.h
+ C:\dev\C-Game\src\renderer.h C:\dev\C-Game\src\cube.h

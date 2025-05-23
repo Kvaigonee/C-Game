@@ -326,5 +326,6 @@ CMakeFiles/main.dir/src/renderer.c.obj
  C:/MinGW/x86_64-w64-mingw32/include/vadefs.h
  C:/dev/C-Game/deps/glad/include/KHR/khrplatform.h
  C:/dev/C-Game/deps/glad/include/glad/glad.h
+ C:/dev/C-Game/src/cube.h
  C:/dev/C-Game/src/renderer.h
 
